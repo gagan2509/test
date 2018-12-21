@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-08-01/deploymentParameters.json",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "webAppName": {
+        "value": "appsampletest"
+      },
+      "customHostname": {
+        "value": "mgt-eus.ena.app.deloitte.com"
+      },
+      "existingKeyVaultId": {
+        "value": "/subscriptions/f689b90e-34e8-487b-90cc-b15311d8f1fd/resourceGroups/TestGagan/providers/Microsoft.KeyVault/vaults/tewt"
+      },
+      "existingKeyVaultSecretName": {
+        "value": "ena-dasmgt-prd-appcert"
+      }
+    }
+}
